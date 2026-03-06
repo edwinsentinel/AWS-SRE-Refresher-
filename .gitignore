@@ -1,0 +1,10 @@
+# Ignore private key files
+*.pem
+
+# Ignore Terraform variable files (may contain sensitive data)
+*.tfvars
+
+# Ignore Terraform state files and directories
+terraform.tfstate
+terraform.tfstate.backup
+.terraform/
